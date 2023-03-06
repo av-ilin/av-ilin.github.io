@@ -1,0 +1,163 @@
+body {
+    color: white;
+    font-family: Tilt Neon, sans-serif;
+}
+
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio__swiper {
+    width: 1024px;
+}
+
+.portfolio__swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__swiper-prev,
+.portfolio__swiper-next {
+    color: #fff;
+    animation: neon 0.1s ease-in-out infinite alternate;
+    overflow: visible;
+}
+
+.portfolio__swiper-prev::after {
+    position: relative;
+    left: 20px;
+}
+
+.portfolio__swiper-next::after {
+    position: relative;
+    left: -20px;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+            0 0 30px rgba(202, 228, 225, 0.34),
+            0 0 12px rgba(191, 226, 255, 0.52),
+            0 0 21px rgba(191, 226, 255, 0.92),
+            0 0 34px rgba(191, 226, 255, 0.78),
+            0 0 54px rgba(191, 226, 255, 0.92);
+    }
+    to {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+            0 0 30px rgba(202, 228, 225, 0.42),
+            0 0 12px rgba(191, 226, 255, 0.58),
+            0 0 22px rgba(191, 226, 255, 0.84),
+            0 0 38px rgba(191, 226, 255, 0.88), 0 0 60px #fff;
+    }
+}
+
+.portfolio__card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 768px;
+    height: 600px;
+    background: linear-gradient(
+        108.15deg,
+        rgba(0, 0, 0, 0.25) 2.55%,
+        rgba(0, 0, 0, 0.25) 98.89%
+    );
+    box-shadow: 0px 4px 40px -1px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    border-radius: 40px;
+}
+
+.portfolio__card-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: 562px;
+}
+
+.portfolio__card-name {
+    font-size: 40px;
+}
+
+.portfolio__card-desc {
+    text-indent: 20px;
+    line-height: 130%;
+    margin: 30px 0 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.portfolio__card-ad {
+    font-size: 25px;
+}
+
+.portfolio__card-list {
+    margin: 10px 0px auto 15px;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    line-height: 130%;
+    font-size: 16px;
+}
+
+.portfolio__card-prop {
+    display: flex;
+    align-items: center;
+}
+
+.mark {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.mark.no {
+    background-color: red;
+}
+
+.mark.yes {
+    background-color: green;
+}
+
+.portfolio__card-preview {
+    width: 300px;
+    height: 562px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 30px;
+}
+
+.portfolio__card-but {
+    align-self: center;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 1px;
+    border: 2px solid #ffcf7a;
+    background: transparent;
+    color: #ffcf7a;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio__card-but:hover {
+    box-shadow: 0px 0px 50px 0px #af9870;
+    background: #eccf94;
+    color: #191919;
+}

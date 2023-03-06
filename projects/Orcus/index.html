@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>ORCUS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Noto+Sans:wght@400;700&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <div class="pagination" id="paginator">
+            <div class="pagination__bullet" id="bullet01">
+                <p class="pagination__bullet-num" id="bullet01_text">01</p>
+            </div>
+            <div class="pagination__bullet" id="bullet02">
+                <p class="pagination__bullet-num" id="bullet02_text">02</p>
+            </div>
+            <div class="pagination__bullet" id="bullet03">
+                <p class="pagination__bullet-num" id="bullet03_text">03</p>
+            </div>
+        </div>
+
+        <div class="top" id="navigator">
+            <div class="top__background" id="navigator_background"></div>
+            <div class="top__container">
+                <a class="logo" href="">
+                    <img class="logo__img" src="images/logo.svg" alt="logo" />
+                </a>
+                <ul class="navigation">
+                    <li class="navigation-item">
+                        <p class="navigation__item-ref" id="main-ref">
+                            Главная
+                        </p>
+                    </li>
+                    <li class="navigation-item">
+                        <p class="navigation__item-ref" id="about-ref">О нас</p>
+                    </li>
+                    <li class="navigation-item">
+                        <p class="navigation__item-ref" id="service-ref">
+                            Услуги
+                        </p>
+                    </li>
+                    <li class="navigation-item">
+                        <p class="navigation__item-ref" id="portfolio-ref">
+                            Наши работы
+                        </p>
+                    </li>
+                    <li class="navigation-item">
+                        <p class="navigation__item-ref" id="contacts-ref">
+                            Контакты
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <header class="header" id="header">
+            <div class="header__filter"></div>
+            <div class="container">
+                <div class="header__content" id="header_content">
+                    <h1 class="header__title">Разработка Web-проектов</h1>
+                    <h4 class="header__subtitle">
+                        Сайт с уникальным дизайном — ваш маркетинговый
+                        инструмент
+                    </h4>
+                </div>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <div class="about__filter"></div>
+            <div class="container">
+                <h1 class="about__title">О НАС</h1>
+                <h3 class="about__subtitle">
+                    IT компания по разработке web проектов
+                </h3>
+                <div class="characteristics-slider">
+                    <ul class="characteristics-list">
+                        <li class="characteristic-item">
+                            <img
+                                class="characteristic-img"
+                                src="images/char01.svg"
+                                alt="image"
+                            />
+                            <h4 class="characteristic-name">Профессионализм</h4>
+                            <p class="characteristic-description">
+                                Профессиональное выполнение всех своих
+                                обязанностей с учётом ваших пожеланий
+                            </p>
+                        </li>
+                        <li class="characteristic-item">
+                            <img
+                                class="characteristic-img"
+                                src="images/char02.svg"
+                                alt="image"
+                            />
+                            <h4 class="characteristic-name">
+                                Кратчайшие сроки
+                            </h4>
+                            <p class="characteristic-description">
+                                Готовность проектов всегда вовремя. Без задержок
+                                и опозданий.
+                            </p>
+                        </li>
+                        <li class="characteristic-item">
+                            <img
+                                class="characteristic-img"
+                                src="images/char03.svg"
+                                alt="image"
+                            />
+                            <h4 class="characteristic-name">Неповторимость</h4>
+                            <p class="characteristic-description">
+                                Индивидуальный подход к каждому проекту и
+                                неповторимый стиль.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <div class="service__filter"></div>
+            <div class="service__container">
+                <h1 class="service__title">
+                    МЫ ПРЕДОСТАВЛЯЕМ ЛУЧШИЕ WEB УСЛУГИ!
+                </h1>
+                <h4 class="service__subtitle">
+                    Наша команда поможет вам тратить меньше зарабатывая больше!
+                </h4>
+                <div class="service__inner">
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item01.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Сайт-визитка</p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item02.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Корпоративный сайт</p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item03.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Сайт-каталог</p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item04.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Сайт под ключ</p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item05.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Интернет-магазин</p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item06.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Индивидуальный Дизайн</p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item07.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">
+                            Создание сайта с готовым дизайном
+                        </p>
+                    </div>
+                    <div class="service__item">
+                        <img
+                            class="service__item-img"
+                            src="images/item08.svg"
+                            alt="item-image"
+                        />
+                        <p class="service__item-name">Брендинг</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__filter"></div>
+            <div class="portfolio__container">
+                <h1 class="portfolio__title">НАШИ РАБОТЫ</h1>
+                <div class="portfolio__swiper swiper">
+                    <div
+                        class="portfolio__swiper-wrapper swiper-wrapper"
+                        id="swrapper"
+                    >
+                        <!-- 
+                        <div class="portfolio__content swiper-slide">
+                            <a class="portfolio__content-ref" href="#">
+                                <img
+                                    class="portfolio__content-img"
+                                    src="images/portfolio01.jpg"
+                                    alt="work image"
+                                />
+                            </a>
+                            <a class="portfolio__content-ref" href="#">
+                                <img
+                                    class="portfolio__content-img"
+                                    src="images/portfolio02.jpg"
+                                    alt="work image"
+                                />
+                            </a>
+                            <a class="portfolio__content-ref" href="#">
+                                <img
+                                    class="portfolio__content-img"
+                                    src="images/portfolio03.jpg"
+                                    alt="work image"
+                                />
+                            </a>
+                            <a class="portfolio__content-ref" href="#">
+                                <img
+                                    class="portfolio__content-img"
+                                    src="images/portfolio04.jpg"
+                                    alt="work image"
+                                />
+                            </a>
+                            <a class="portfolio__content-ref" href="#">
+                                <img
+                                    class="portfolio__content-img"
+                                    src="images/portfolio05.jpg"
+                                    alt="work image"
+                                />
+                            </a>
+                            <a class="portfolio__content-ref" href="#">
+                                <img
+                                    class="portfolio__content-img"
+                                    src="images/portfolio06.jpg"
+                                    alt="work image"
+                                />
+                            </a>
+                        </div> 
+                        -->
+                    </div>
+                    <div
+                        class="portfolio__swiper-pagination swiper-pagination"
+                    ></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners" id="partners">
+            <div class="partners__filter"></div>
+            <div class="container">
+                <h1 class="partners__title">НАШИ ПАРТНЁРЫ</h1>
+                <div class="partners__content">
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                    <a class="partner-ref" href="#">
+                        <img
+                            class="partner-img"
+                            src="images/partner00.png"
+                            alt="partner image"
+                        />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="instruction" id="instruction">
+            <div class="instruction__filter"></div>
+            <div class="container">
+                <h1 class="instruction__title">КАК ВЫБРАТЬ САЙТ?</h1>
+                <div class="instruction__content">
+                    <div class="instruction__step">
+                        <div class="instruction__step-name">
+                            <p>Сайт-визитка</p>
+                            <img
+                                class="instruction__step-marker"
+                                src="images/marker.svg"
+                                alt="marker"
+                            />
+                        </div>
+                        <p class="instruction__step-text">
+                            Далеко-далеко за словесными горами в стране гласных
+                            и согласных живут рыбные тексты. Образ прямо
+                            скатился не. Напоивший заголовок даль сих что страна
+                            подпоясал буквенных, безорфографичный, рукопись одна
+                            встретил вопрос? Ты, свой строчка.
+                        </p>
+                    </div>
+
+                    <div class="instruction__step">
+                        <div class="instruction__step-name">
+                            <p>Корпоративный сайт</p>
+                            <img
+                                class="instruction__step-marker"
+                                src="images/marker.svg"
+                                alt="marker"
+                            />
+                        </div>
+                        <p class="instruction__step-text">
+                            Далеко-далеко за словесными горами в стране гласных
+                            и согласных живут рыбные тексты. Образ прямо
+                            скатился не. Напоивший заголовок даль сих что страна
+                            подпоясал буквенных, безорфографичный, рукопись одна
+                            встретил вопрос? Ты, свой строчка.
+                        </p>
+                    </div>
+                    <div class="instruction__step">
+                        <div class="instruction__step-name">
+                            <p>Сайт-каталог</p>
+                            <img
+                                class="instruction__step-marker"
+                                src="images/marker.svg"
+                                alt="marker"
+                            />
+                        </div>
+                        <p class="instruction__step-text">
+                            Далеко-далеко за словесными горами в стране гласных
+                            и согласных живут рыбные тексты. Образ прямо
+                            скатился не. Напоивший заголовок даль сих что страна
+                            подпоясал буквенных, безорфографичный, рукопись одна
+                            встретил вопрос? Ты, свой строчка.
+                        </p>
+                    </div>
+                    <div class="instruction__step">
+                        <div class="instruction__step-name">
+                            <p>Сайт под ключ</p>
+                            <img
+                                class="instruction__step-marker"
+                                src="images/marker.svg"
+                                alt="marker"
+                            />
+                        </div>
+                        <p class="instruction__step-text">
+                            Далеко-далеко за словесными горами в стране гласных
+                            и согласных живут рыбные тексты. Образ прямо
+                            скатился не. Напоивший заголовок даль сих что страна
+                            подпоясал буквенных, безорфографичный, рукопись одна
+                            встретил вопрос? Ты, свой строчка.
+                        </p>
+                    </div>
+                    <div class="instruction__step">
+                        <div class="instruction__step-name">
+                            <p>Интернет-магазин</p>
+                            <img
+                                class="instruction__step-marker"
+                                src="images/marker.svg"
+                                alt="marker"
+                            />
+                        </div>
+                        <p class="instruction__step-text">
+                            Далеко-далеко за словесными горами в стране гласных
+                            и согласных живут рыбные тексты. Образ прямо
+                            скатился не. Напоивший заголовок даль сих что страна
+                            подпоясал буквенных, безорфографичный, рукопись одна
+                            встретил вопрос? Ты, свой строчка.
+                        </p>
+                    </div>
+                    <div class="instruction__step">
+                        <div class="instruction__step-name">
+                            <p>Брендинг</p>
+                            <img
+                                class="instruction__step-marker"
+                                src="images/marker.svg"
+                                alt="marker"
+                            />
+                        </div>
+                        <p class="instruction__step-text">
+                            Далеко-далеко за словесными горами в стране гласных
+                            и согласных живут рыбные тексты. Образ прямо
+                            скатился не. Напоивший заголовок даль сих что страна
+                            подпоясал буквенных, безорфографичный, рукопись одна
+                            встретил вопрос? Ты, свой строчка.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback" id="feedback">
+            <div class="container">
+                <h1 class="feedback__title">ОСТАВЬТЕ ЗАЯВКУ</h1>
+                <div class="feedback__form">
+                    <select class="feedback__form-choose" name="Услуга">
+                        <option selected value="s1">Выбрать услугу</option>
+                        <option value="s2">Крокодил Гена</option>
+                        <option value="s3">Шапокляк</option>
+                        <option value="s4">Крыса Лариса</option>
+                    </select>
+
+                    <input
+                        class="feedback__form-input"
+                        type="text"
+                        placeholder="Название вашей компании"
+                    />
+                    <input
+                        class="feedback__form-input"
+                        type="text"
+                        placeholder="Ваше имя"
+                    />
+                    <input
+                        class="feedback__form-input"
+                        type="text"
+                        placeholder="Ваша фамилия"
+                    />
+                    <input
+                        class="feedback__form-input"
+                        type="tel"
+                        placeholder="+79882542786"
+                    />
+                    <input
+                        class="feedback__form-input"
+                        type="email"
+                        placeholder="Ваш e-mail"
+                    />
+                    <textarea
+                        class="feedback__form-message"
+                        type="text"
+                        placeholder="Сообщение"
+                    ></textarea>
+                    <button class="feedback__button">Отправить</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__content">
+                        <div class="footer__content-social">
+                            <a class="footer__link" href="">
+                                <img
+                                    class="footer__link-img"
+                                    src="images/instagramm.svg"
+                                    alt="app logo"
+                                />
+                            </a>
+                            <a class="footer__link" href="">
+                                <img
+                                    class="footer__link-img"
+                                    src="images/telegram.svg"
+                                    alt="app logo"
+                                />
+                            </a>
+                            <a class="footer__link" href="">
+                                <img
+                                    class="footer__link-img"
+                                    src="images/facebook.svg"
+                                    alt="app logo"
+                                />
+                            </a>
+                            <a class="footer__link" href="">
+                                <img
+                                    class="footer__link-img"
+                                    src="images/whatsapp.svg"
+                                    alt="app logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="footer__content-contacts">
+                            <p class="footer__email">e-mail: orcus@gmail.com</p>
+                            <p class="footer__phone">
+                                Номер телефона: +998 77 777 77 77
+                            </p>
+                        </div>
+                    </div>
+                    <img
+                        class="footer__inner-logo"
+                        src="images/footer_logo.svg"
+                        alt="logo"
+                    />
+                </div>
+            </div>
+        </footer>
+
+        <section class="foot">
+            <p class="foot__text">2022 all rights reserved</p>
+        </section>
+
+        <!-- <script type="module" src="js/data.js"></script> -->
+        <!-- <script type="module" src="js/patterns.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/pagination.js"></script>
+        <script src="js/navigation.js"></script>
+        <script src="js/patterns.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
