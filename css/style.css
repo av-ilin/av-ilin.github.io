@@ -60,7 +60,7 @@ body {
 }
 
 .portfolio__swiper-pag {
-    padding: 5px 0 5px;
+    padding: 10px 0 10px;
     position: initial;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ body {
 .portfolio__swiper-pag .swiper-pagination-bullet-active {
     width: 20px;
     height: 20px;
-    box-shadow: 0px 0px 50px 0px #af9870;
+    box-shadow: 0px 0px 15px 0px #af9870;
     background: #eccf94;
 }
 
