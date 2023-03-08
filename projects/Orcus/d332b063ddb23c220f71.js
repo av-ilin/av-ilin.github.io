@@ -1,0 +1,1 @@
+function createData(){let o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:5,t=[],e=["images/portfolio01.jpg","images/portfolio02.jpg","images/portfolio03.jpg","images/portfolio04.jpg","images/portfolio05.jpg","images/portfolio06.jpg","images/portfolio06.jpg"];for(let g=0;g<o;g++)for(let o=0;o<e.length;o++)t.push({ref:"#",img:e[o]});return t}let data=createData();

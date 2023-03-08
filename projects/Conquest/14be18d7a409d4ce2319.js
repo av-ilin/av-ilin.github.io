@@ -1,0 +1,1 @@
+const menu=document.getElementsByClassName("menu")[0];window.addEventListener("scroll",(function(){this.scrollY>0?menu.classList.contains("active")||menu.classList.add("active"):menu.classList.contains("active")&&menu.classList.remove("active")}));

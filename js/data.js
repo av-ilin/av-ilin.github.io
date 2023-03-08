@@ -5,7 +5,7 @@ const data = [
             "Cайт для производителя автоматических биокаминов от «Elite Fire», представлен в виде одностраничного сайта. Есть только ПК версия макета. Из интерактивных элементов различные карусели, форма заявки и т. д.",
         desktop: true,
         tablet: true,
-        mobile: false,
+        mobile: true,
         url: "projects/EliteFire/index.html",
         preview: "images/preview_EliteFire.png",
     },
@@ -16,7 +16,7 @@ const data = [
         desktop: true,
         tablet: true,
         mobile: false,
-        url: "projects/ArtTinting/src/index.html",
+        url: "projects/ArtTinting/index.html",
         preview: "images/preview_ArtTinting.png",
     },
     {
@@ -36,7 +36,7 @@ const data = [
         desktop: true,
         tablet: false,
         mobile: false,
-        url: "projects/Conquest/src/index.html",
+        url: "projects/Conquest/index.html",
         preview: "images/preview_Conquest.png",
     },
     {
