@@ -1,5 +1,15 @@
 const data = [
     {
+        name: "Weather Widget",
+        description:
+            "Виджет, отображающий погоду в выбранном регионе. Данные - Weather API.",
+        desktop: true,
+        tablet: true,
+        mobile: true,
+        url: "projects/Weather/index.html",
+        preview: "images/preview_Weather.png",
+    },
+    {
         name: "Elite Fire",
         description:
             "Cайт для производителя автоматических биокаминов от «Elite Fire», представлен в виде одностраничного сайта. Есть только ПК версия макета. Из интерактивных элементов различные карусели, форма заявки и т. д.",
