@@ -1,0 +1,1 @@
+class WeatherApi{static get KEY(){return"dcc1283cefc24fa29f9110250230603"}static get URL(){return"https://api.weatherapi.com/v1/forecast.json"}static async get(a){let t=new URL(WeatherApi.URL);t.searchParams.set("key",WeatherApi.KEY),t.searchParams.set("q",a),t.searchParams.set("days",7);const e=await fetch(t);return await e.json()}}
