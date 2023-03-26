@@ -1,5 +1,15 @@
 const data = [
     {
+        name: "Easy Lamp",
+        description:
+            "Часть страницы магазина ламп, содержащий информацию о товарах. Данные - Lamp Shop API",
+        desktop: true,
+        tablet: true,
+        mobile: true,
+        url: "projects/EasyLamp/index.html",
+        preview: "images/preview_EasyLamp.png",
+    },
+    {
         name: "Weather Widget",
         description:
             "Виджет, отображающий погоду в выбранном регионе. Данные - Weather API.",
