@@ -2,7 +2,7 @@ const data = [
     {
         name: "Easy Lamp",
         description:
-            "Часть страницы магазина ламп, содержащий информацию о товарах. Данные - Lamp Shop API",
+            "Часть страницы магазина ламп, содержащий информацию о товарах. Данные - Lamp Shop API. (Требуется VPN!)",
         desktop: true,
         tablet: true,
         mobile: true,
