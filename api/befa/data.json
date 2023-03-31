@@ -1,8 +1,86 @@
 {
+    "count": 10,
+    "src": "FakeApi",
     "arts": [
         {
             "name": "Corrida",
-            "art": ""
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/01.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/02.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/03.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/04.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/05.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/06.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/07.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/08.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/09.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
+        },
+        {
+            "name": "Corrida",
+            "width": "100",
+            "height": "100",
+            "paint": "Acryl",
+            "img": "https://av-ilin.github.io/api/befa/arts/10.webp",
+            "description": "I painted this picture experiencing love, passion, pain for my Beloved, in the picture below in the right corner there is an incision, a wound from which blood flows, like in Corrida"
         }
     ]
 }
