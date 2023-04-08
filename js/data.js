@@ -1,6 +1,6 @@
 const data = [
     {
-        name: "Befa Art",
+        name: "Befa Art (DEV)",
         description:
             "Макет портфолио художницы «BefaArt». Реализован на React.js.",
         desktop: true,
