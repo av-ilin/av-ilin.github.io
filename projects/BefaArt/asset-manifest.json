@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projects/BefaArt/static/css/main.b0aa3b40.css",
-    "main.js": "/projects/BefaArt/static/js/main.ac6d30e7.js",
+    "main.js": "/projects/BefaArt/static/js/main.61b59b82.js",
     "static/media/acworth-bold.otf": "/projects/BefaArt/static/media/acworth-bold.22adb2dbc298c1b28f2c.otf",
     "static/media/geometria_medium.otf": "/projects/BefaArt/static/media/geometria_medium.7ab28e0b639484784c93.otf",
     "static/media/geometria_bold.otf": "/projects/BefaArt/static/media/geometria_bold.b44887183ba2d29c6642.otf",
@@ -11,10 +11,10 @@
     "static/media/KyivTypeSans-Medium.ttf": "/projects/BefaArt/static/media/KyivTypeSans-Medium.7d6e55f9d90a396b13c5.ttf",
     "index.html": "/projects/BefaArt/index.html",
     "main.b0aa3b40.css.map": "/projects/BefaArt/static/css/main.b0aa3b40.css.map",
-    "main.ac6d30e7.js.map": "/projects/BefaArt/static/js/main.ac6d30e7.js.map"
+    "main.61b59b82.js.map": "/projects/BefaArt/static/js/main.61b59b82.js.map"
   },
   "entrypoints": [
     "static/css/main.b0aa3b40.css",
-    "static/js/main.ac6d30e7.js"
+    "static/js/main.61b59b82.js"
   ]
 }
