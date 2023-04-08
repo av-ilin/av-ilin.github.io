@@ -6,7 +6,7 @@ const data = [
         desktop: true,
         tablet: true,
         mobile: true,
-        url: "projects/BefaArt/",
+        url: "projects/BefaArt",
         preview: "images/preview_BefaArt.png",
     },
     {
