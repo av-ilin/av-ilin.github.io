@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3732c8d.css",
+    "main.js": "/static/js/main.fa09c2ff.js",
+    "static/media/acworth-bold.otf": "/static/media/acworth-bold.22adb2dbc298c1b28f2c.otf",
+    "static/media/geometria_medium.otf": "/static/media/geometria_medium.7ab28e0b639484784c93.otf",
+    "static/media/geometria_bold.otf": "/static/media/geometria_bold.b44887183ba2d29c6642.otf",
+    "static/media/geometria_extrabold.otf": "/static/media/geometria_extrabold.e1ab28fe585001b3bef9.otf",
+    "static/media/Geometria-Regular.ttf": "/static/media/Geometria-Regular.ae4002fb708635ff236f.ttf",
+    "static/media/Geometria-Light.ttf": "/static/media/Geometria-Light.5376da72f86346cd473e.ttf",
+    "static/media/KyivTypeSans-Medium.ttf": "/static/media/KyivTypeSans-Medium.7d6e55f9d90a396b13c5.ttf",
+    "index.html": "/index.html",
+    "main.e3732c8d.css.map": "/static/css/main.e3732c8d.css.map",
+    "main.fa09c2ff.js.map": "/static/js/main.fa09c2ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3732c8d.css",
+    "static/js/main.fa09c2ff.js"
+  ]
+}

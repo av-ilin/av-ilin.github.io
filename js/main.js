@@ -3,7 +3,6 @@ for (let site of data) {
     let slide = document.createElement("div");
     slide.className = "portfolio__swiper-slide swiper-slide";
     slide.append(Card.create(site));
-    console.log(slide);
     wrapper.append(slide);
 }
 

@@ -1,5 +1,15 @@
 const data = [
     {
+        name: "Befa Art",
+        description:
+            "Макет портфолио художницы «BefaArt». Реализован на React.js.",
+        desktop: true,
+        tablet: true,
+        mobile: true,
+        url: "projects/BefaArt/index.html",
+        preview: "images/preview_BefaArt.png",
+    },
+    {
         name: "Easy Lamp",
         description:
             "Часть страницы магазина ламп, содержащий информацию о товарах. Данные - Lamp Shop API. (Требуется VPN!)",
