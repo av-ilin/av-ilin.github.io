@@ -10,6 +10,8 @@ const swiper = new Swiper(".portfolio__swiper", {
     pagination: {
         el: ".portfolio__swiper-pag",
         clickable: true,
+        dynamicBullets: true,
+        dynamicMainBullets: 1,
     },
 
     navigation: {

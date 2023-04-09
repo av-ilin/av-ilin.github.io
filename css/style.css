@@ -66,10 +66,7 @@ body {
 
 .portfolio__swiper-pag {
     padding: 10px 0 10px;
-    position: initial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .portfolio__swiper-pag .swiper-pagination-bullet {
