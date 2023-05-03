@@ -10,6 +10,16 @@ const data = [
     //     preview: "images/preview_KChalet.png",
     // },
     {
+        name: "Progress Block",
+        description:
+            "Прототип блока Progress для использования в мобильных web-приложениях. Основное предназначение блока отображать процесс выполнения процессов и их прогресс выполнения.",
+        desktop: true,
+        tablet: true,
+        mobile: true,
+        url: "projects/ProgressBlock/index.html",
+        preview: "images/preview_ProgressBlock.png",
+    },
+    {
         name: "Befa Art",
         description:
             "Сайт-портфолио художницы «BefaArt». Реализован на React.js.",
