@@ -1,14 +1,4 @@
 const data = [
-    // {
-    //     name: "Kamchatka Chalet (DEV)",
-    //     description:
-    //         "Страница первого в истории Кмачатки пятизвездочного отлея - KAMCHATKA CHALET. Находится в стадии разработки.",
-    //     desktop: true,
-    //     tablet: false,
-    //     mobile: false,
-    //     url: "projects/Kamchatka/index.html",
-    //     preview: "images/preview_KChalet.png",
-    // },
     {
         name: "Progress Block",
         description:
@@ -18,6 +8,16 @@ const data = [
         mobile: true,
         url: "projects/ProgressBlock/index.html",
         preview: "images/preview_ProgressBlock.png",
+    },
+    {
+        name: "Kamchatka Chalet",
+        description:
+            "Страница первого в истории Кмачатки пятизвездочного отлея - Kamchatka Chalet. Находится в стадии разработки.",
+        desktop: true,
+        tablet: true,
+        mobile: true,
+        url: "projects/Kamchatka/index.html",
+        preview: "images/preview_KChalet.png",
     },
     {
         name: "Befa Art",
