@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3b2f7df.css",
+    "main.js": "/static/js/main.f5328757.js",
+    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.62b8eee010e3957d425f.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.94bb495fba6077f669ed.ttf",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.e3b2f7df.css.map": "/static/css/main.e3b2f7df.css.map",
+    "main.f5328757.js.map": "/static/js/main.f5328757.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3b2f7df.css",
+    "static/js/main.f5328757.js"
+  ]
+}

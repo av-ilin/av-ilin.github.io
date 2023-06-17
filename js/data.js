@@ -1,5 +1,14 @@
 const data = [
     {
+        name: "Reqres",
+        description: "Веб-приложение для взимодействия с API Reqres.in",
+        desktop: true,
+        tablet: true,
+        mobile: true,
+        url: "projects/Reqres",
+        preview: "images/preview_BefaArt.png",
+    },
+    {
         name: "Progress Block",
         description:
             "Прототип блока Progress для использования в мобильных web-приложениях. Основное предназначение блока отображать процесс выполнения процессов и их прогресс выполнения.",
