@@ -2,12 +2,12 @@ const data = [
     {
         name: "Reqres",
         description:
-            "Веб-приложение для взимодействия с API Reqres.in. Для входа и регистрации можно использовать следующий email - 'eve.holt@reqres.in', пароль любой.",
+            "Веб-приложение для взаимодействия с API Reqres.in. Для входа и регистрации можно использовать следующий email - 'eve.holt@reqres.in', пароль любой.",
         desktop: true,
         tablet: true,
         mobile: true,
-        url: "projects/Reqres",
-        preview: "images/preview_BefaArt.png",
+        url: "projects/reqres",
+        preview: "images/preview_Reqres.png",
     },
     {
         name: "Progress Block",
