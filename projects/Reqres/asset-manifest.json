@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/projects/reqres/static/css/main.c6154dad.css",
-    "main.js": "/projects/reqres/static/js/main.3c4bf8dd.js",
-    "static/media/Montserrat-SemiBold.ttf": "/projects/reqres/static/media/Montserrat-SemiBold.62b8eee010e3957d425f.ttf",
-    "static/media/Montserrat-Medium.ttf": "/projects/reqres/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
-    "static/media/Montserrat-Regular.ttf": "/projects/reqres/static/media/Montserrat-Regular.94bb495fba6077f669ed.ttf",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/projects/reqres/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/projects/reqres/index.html",
-    "main.c6154dad.css.map": "/projects/reqres/static/css/main.c6154dad.css.map",
-    "main.3c4bf8dd.js.map": "/projects/reqres/static/js/main.3c4bf8dd.js.map"
+    "main.css": "/static/css/main.e3b2f7df.css",
+    "main.js": "/static/js/main.3c4bf8dd.js",
+    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.62b8eee010e3957d425f.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.94bb495fba6077f669ed.ttf",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.e3b2f7df.css.map": "/static/css/main.e3b2f7df.css.map",
+    "main.3c4bf8dd.js.map": "/static/js/main.3c4bf8dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6154dad.css",
+    "static/css/main.e3b2f7df.css",
     "static/js/main.3c4bf8dd.js"
   ]
 }
