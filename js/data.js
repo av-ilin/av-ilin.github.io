@@ -20,6 +20,15 @@ const data = [
         preview: "images/preview_ProgressBlock.png",
     },
     {
+        name: "A.S.B.I.T (dev)",
+        description: "Веб-приложение для компании AS-BIT.",
+        desktop: true,
+        tablet: false,
+        mobile: false,
+        url: "projects/asbit",
+        preview: "images/preview_ASBIT.png",
+    },
+    {
         name: "Kamchatka Chalet",
         description:
             "Страница первого в истории Кмачатки пятизвездочного отлея - Kamchatka Chalet. Находится в стадии разработки.",

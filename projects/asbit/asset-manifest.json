@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/projects/asbit/static/css/main.9fcc75bd.css",
+    "main.js": "/projects/asbit/static/js/main.df25c355.js",
+    "static/media/home_activity-bg.png": "/projects/asbit/static/media/home_activity-bg.33bb0d022486e1474133.png",
+    "static/media/Montserrat-SemiBold.ttf": "/projects/asbit/static/media/Montserrat-SemiBold.62b8eee010e3957d425f.ttf",
+    "static/media/Montserrat-Medium.ttf": "/projects/asbit/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
+    "static/media/Montserrat-Regular.ttf": "/projects/asbit/static/media/Montserrat-Regular.94bb495fba6077f669ed.ttf",
+    "static/media/start_bg-sphere02.png": "/projects/asbit/static/media/start_bg-sphere02.536e35b1c71810538f08.png",
+    "static/media/start_bg-sphere01.png": "/projects/asbit/static/media/start_bg-sphere01.5700f01ad85b44fe25af.png",
+    "index.html": "/projects/asbit/index.html",
+    "main.9fcc75bd.css.map": "/projects/asbit/static/css/main.9fcc75bd.css.map",
+    "main.df25c355.js.map": "/projects/asbit/static/js/main.df25c355.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fcc75bd.css",
+    "static/js/main.df25c355.js"
+  ]
+}
